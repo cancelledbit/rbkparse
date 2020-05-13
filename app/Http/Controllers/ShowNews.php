@@ -9,7 +9,7 @@ use Illuminate\Database\Eloquent\ModelNotFoundException;
 class ShowNews extends Controller
 {
     public function index() {
-        $articles = Article::query()->orderBy('created_at', 'desc')->get();
+        $articles = Article::query()->orderBy('created_at', 'desc')->paginate(15);
         return view('home', ['articles' => $articles]);
     }
 
