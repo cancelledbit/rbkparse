@@ -42,6 +42,6 @@ QUEUE_CONNECTION=sync
 SESSION_DRIVER=file
 SESSION_LIFETIME=120
 ```
-* add following to your crontab ```* * * * * cd /var/www/rbkparse && php artisan schedule:run >> /dev/null 2>&1``
+* add following to your crontab ```* * * * * cd /var/www/rbkparse && php artisan schedule:run >> /dev/null 2>&1```
 * `$ php artisan serve --host=0.0.0.0 --port 8081`
 Now you can access service with your browser http://<YOUR-EXTERAL-IP>:8081/
