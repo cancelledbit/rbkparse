@@ -17,7 +17,7 @@ This is simple RBK newsfeed parser written with Laravel for test purposes.
 * SQLite
 * nginx
 
-## Step 1. 
+## Deployment. 
 Clone this repository to your web server and install dependencies, i assume it would be /var/www
 * `$ git clone https://github.com/cancelledbit/rbkparse.git && cd ./rbkparse`
 * Install composer as described here https://getcomposer.org/download/
