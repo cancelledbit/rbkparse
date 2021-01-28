@@ -44,4 +44,4 @@ SESSION_LIFETIME=120
 * `php artisan key:generate`
 * add following to your crontab ```* * * * * cd /var/www/rbkparse && php artisan schedule:run >> /dev/null 2>&1```
 * `$ php artisan serve --host=0.0.0.0 --port 8081`
-Now you can access service with your browser http://<YOUR-EXTERAL-IP>:8081/
+Now you can access service with your browser http://YOUR-EXTERAL-IP:8081/
